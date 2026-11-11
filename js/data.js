@@ -260,7 +260,71 @@ const APPS = [
       languages: 'Bahasa Indonesia',
       ageRating: '3+ (Semua umur)'
     }
-  }
+  },
+  {
+  id: 'eduvolt',
+  name: 'EduVolt',
+  tagline: 'Belajar Elektronika & Arduino jadi menyenangkan',
+  category: 'Edukasi',
+  rating: 0,
+  ratingCount: 0,
+  downloads: '0',
+  icon: 'img/asset/icon/eduvolt.png', // Pastikan file PNG-nya ada di folder ini
+  version: '0.8.9',
+  updated: '2026-11-11',
+  size: '45 MB', // Ganti dengan ukuran file APK asli
+  theme: { from: '#F59E0B', to: '#EF4444', accent: '#FCD34D' }, // Tema warna kuning-oranye (elektronika)
+  shortDescription: 'Platform pembelajaran elektronika interaktif untuk siswa SMK, lengkap dengan simulasi Arduino dan kuis.',
+  fullDescription: [
+    'EduVolt adalah aplikasi pembelajaran elektronika yang dirancang khusus untuk siswa SMK. Aplikasi ini membantumu memahami dasar-dasar Arduino dan mikrokontroler dengan cara yang menyenangkan dan interaktif.',
+    'Tersedia materi berjenjang dari Level 1 hingga Level 5, dilengkapi dengan kuis interaktif dan mini games untuk menguji pemahamanmu. Kamu juga bisa bereksperimen langsung menggunakan simulator Velxio yang terintegrasi.',
+    'Dibangun dengan teknologi modern, EduVolt memungkinkanmu belajar merangkai sensor dan motor secara virtual tanpa harus takut merusak komponen fisik.'
+  ],
+  highlights: [
+    'Materi berjenjang (Level 1-5) untuk pemula hingga mahir',
+    'Simulasi interaktif dengan Velxio (Sensor & Motor)',
+    'Kuis interaktif dan mini games edukatif',
+    'Video pembelajaran terintegrasi YouTube Player'
+  ],
+  screenshots: [
+    { title: 'Menu Utama', caption: 'Pilih level pembelajaran yang ingin kamu mulai.' },
+    { title: 'Materi & Video', caption: 'Baca materi sambil menonton video tutorial.' },
+    { title: 'Simulasi Velxio', caption: 'Rangkai komponen virtual secara interaktif.' },
+    { title: 'Kuis & Games', caption: 'Uji pemahamanmu dengan kuis seru.' }
+  ],
+  changelog: [
+    { 
+      version: '0.8.9', 
+      date: '11 November 2026', 
+      type: 'Rilis pertama', 
+      notes: [
+        'Rilis beta EduVolt.',
+        'Fitur: Materi level 1-5, simulasi Velxio, kuis, dan mini games.'
+      ] 
+    }
+  ],
+  developerInfo: {
+    studio: 'Genta & Rizky',
+    founder: 'Genta, Rizky',
+    founded: '2026',
+    location: 'Surabaya, Indonesia',
+    website: '-',
+    email: '-',
+    team: '2 orang',
+    appsPublished: 1,
+    responseTime: '-'
+  },
+  technical: {
+    version: '0.8.9',
+    size: '73 MB', // Ganti dengan ukuran file asli
+    updated: '11 November 2026',
+    requires: 'Android 8.0+ / Web Browser',
+    license: 'Gratis',
+    languages: 'Bahasa Indonesia',
+    ageRating: '3+ (Semua umur)'
+  },
+  apkUrl: 'https://github.com/Ramaa-linux/voltar_app/releases/download/release/eduvolt.apk' 
+}
 ];
 
 /* ------------------------------------------------------------------ Indeks bantu */
