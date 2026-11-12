@@ -270,9 +270,9 @@ const APPS = [
   ratingCount: 0,
   downloads: '0',
   icon: 'img/asset/icon/eduvolt.png', // Pastikan file PNG-nya ada di folder ini
-  version: '0.8.9',
+  version: '0.9.7',
   updated: '2026-11-11',
-  size: '45 MB', // Ganti dengan ukuran file APK asli
+  size: '77 MB', // Ganti dengan ukuran file APK asli
   theme: { from: '#F59E0B', to: '#EF4444', accent: '#FCD34D' }, // Tema warna kuning-oranye (elektronika)
   shortDescription: 'Platform pembelajaran elektronika interaktif untuk siswa SMK, lengkap dengan simulasi Arduino dan kuis.',
   fullDescription: [
@@ -323,7 +323,7 @@ const APPS = [
     languages: 'Bahasa Indonesia',
     ageRating: '3+ (Semua umur)'
   },
-  apkUrl: 'https://github.com/Ramaa-linux/voltar_app/releases/download/release/eduvolt.apk' 
+  apkUrl: 'https://github.com/Ramaa-linux/voltar_app/releases/download/rilis/EduVolt.apk' 
 }
 ];
 
